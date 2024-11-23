@@ -3,7 +3,6 @@
 import { K2d } from "@/app/layout";
 import { Mail, Menu, Phone } from "lucide-react";
 import { useState } from "react";
-import AnimatedBtn from "./AnimatedBtn";
 
 export default function Header() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

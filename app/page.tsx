@@ -1,15 +1,15 @@
 "use client";
 
 import { Github, Linkedin } from "lucide-react";
-import { K2d, kaushanScript, leagueSpartan, sourGummy } from "./layout";
+import { K2d, leagueSpartan } from "./layout";
 import styles from "./page.module.css";
 import { useEffect, useState } from "react";
 
 export default function Home() {
   const [heroSectionClass, setHeroSectionClass] = useState([styles.heroSection]);
-  const readableTime = 3000;
+  const readableTime = 2000;
   
-  const animateHero = () => {
+  function animateHero() {
 
     setHeroSectionClass([...heroSectionClass, 'animate_rotate']);
     setTimeout(()=>{
@@ -26,7 +26,7 @@ export default function Home() {
     animateHero();
     setInterval(()=>{
       animateHero();
-    }, 3000 + readableTime)
+    }, 3000 + readableTime);
 
   }, [])
 
