@@ -1,6 +1,6 @@
 'use client';
 
-import { K2d } from "@/app/layout";
+import { K2d } from "@/app/fonts";
 import { Mail, Menu, Phone } from "lucide-react";
 import { useState } from "react";
 
