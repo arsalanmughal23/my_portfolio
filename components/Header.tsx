@@ -24,17 +24,17 @@ export default function Header() {
             <div className="flex justify-center">
                 <ul className="flex flex-col sm_flex-row gap-2 text-lg list-style-none text-4xl sm_text-xl">
                     <li className="btn menu-item text-center">
-                        <div className="inner bg-black">
+                        <div className="inner">
                             Home
                         </div>
                     </li>
                     <li className="btn menu-item">
-                        <div className="inner bg-black text-center">
+                        <div className="inner text-center">
                             About
                         </div>
                     </li>
                     <li className="btn menu-item">
-                        <div className="inner bg-black text-center">
+                        <div className="inner text-center">
                             Services
                         </div>
                     </li>
