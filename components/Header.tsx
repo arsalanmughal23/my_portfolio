@@ -12,9 +12,9 @@ export default function Header() {
     }
 
     return (
-        <header className={`${isMobileMenuOpen ? 'menuOpen' : 'menuClose'} transition-1s overflow-hidden py-2 container-fluid header flex flex-col sm_flex-row gap-4 justify-between`}>
+        <header className={`${isMobileMenuOpen ? 'menuOpen' : 'menuClose'} transition-1s overflow-hidden pt-2 container-fluid header flex flex-col sm_flex-row gap-4 justify-between`}>
             <div className="flex justify-between">
-                <div className={`${K2d.className} text-3xl`}>
+                <div className={`${K2d.className} text-4xl`}>
                     Arsalan
                 </div>
                 <div className="sm_d-none">

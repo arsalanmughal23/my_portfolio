@@ -36,7 +36,7 @@ export default function HeroSection() {
             <div className="flex flex-col gap-6 p-6">
                 <div className="flex flex-col gap-2 sm_w-max">
                     <h2 className={`${K2d.className} text-5xl text-right`}>Develop your websites</h2>
-                    <h2 className={`${K2d.className} text-5xl align-self-end text-right`}>using <span className={`font-600 ${leagueSpartan.className}`}>Next.js</span> Stack</h2>
+                    <h2 className={`${K2d.className} text-5xl align-self-end text-right`}>using <span className={`font-600 ${leagueSpartan.className} text-stroke-white text-transparent`}>Next.js</span> Stack</h2>
                 </div>
                 <div className="flex gap-2 align-self-end">
                     <div className="border border-white rounded p-2 w-10 h-10">
